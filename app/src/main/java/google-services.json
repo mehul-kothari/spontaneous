@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "894793379902",
+    "firebase_url": "https://spontaneous1-4e937.firebaseio.com",
+    "project_id": "spontaneous1-4e937",
+    "storage_bucket": "spontaneous1-4e937.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894793379902:android:8f772b0ffe6acfca",
+        "android_client_info": {
+          "package_name": "com.example.mehulkothari.spontaneous1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894793379902-uoleue67o8uftcigfcsr96flguqfee1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg7RkZSALl_nA6DeT-hnCYExdyGZLa3wQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

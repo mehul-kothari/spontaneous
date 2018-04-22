@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home" android:icon="@android:drawable/ic_menu_camera"
+        android:title="Home" />
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_student">
+
+        <item android:id="@+id/create" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Create an event" />
+        <item android:id="@+id/my_events" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="My events" />
+        <item android:id="@+id/sponsors_list" android:icon="@android:drawable/ic_menu_manage"
+            android:title="List of sponsors" />
+
+    </group>
+    <group android:checkableBehavior="single"
+            android:id="@+id/group_sponsor">
+    <item android:id="@+id/create_sponsor" android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Sponsor an event" />
+    <item android:id="@+id/my_events_sponsor" android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="Sponsored events" />
+    <item android:id="@+id/events_sponsored" android:icon="@android:drawable/ic_menu_manage"
+        android:title="All events sponsored" />
+</group>
+    <item android:id="@+id/messages" android:icon="@android:drawable/ic_menu_manage"
+        android:title="Messages" />
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
