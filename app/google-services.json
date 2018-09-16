@@ -8,20 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:894793379902:android:8f772b0ffe6acfca",
+        "mobilesdk_app_id": "*******************",
         "android_client_info": {
           "package_name": "com.example.mehulkothari.spontaneous1"
         }
       },
       "oauth_client": [
         {
-          "client_id": "894793379902-uoleue67o8uftcigfcsr96flguqfee1q.apps.googleusercontent.com",
+          "client_id": "*******************",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAg7RkZSALl_nA6DeT-hnCYExdyGZLa3wQ"
+          "current_key": "*************"
         }
       ],
       "services": {
