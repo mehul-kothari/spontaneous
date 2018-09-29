@@ -112,7 +112,7 @@ public class Main2Activity extends AppCompatActivity
         };
         handler.postDelayed(runnable,1000);*/
     }
-
+//service notification
     private void startAlarm() {
         manager = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
         int interval = 100;
@@ -120,7 +120,7 @@ public class Main2Activity extends AppCompatActivity
         manager.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(), interval, pendingIntent);
         Toast.makeText(this, "Alarm Set", Toast.LENGTH_SHORT).show();
     }
-
+//saving profile image
     private void insertImage() {
 
         FirebaseStorage storage = FirebaseStorage.getInstance();
@@ -204,7 +204,7 @@ public class Main2Activity extends AppCompatActivity
             }
 
 
-
+//navbar functionalities.
     private void displaySelectedScreen(int itemId) {
 
         Fragment fragment=null;
