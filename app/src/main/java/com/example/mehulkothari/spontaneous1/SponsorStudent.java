@@ -16,6 +16,8 @@ import com.google.firebase.auth.FirebaseUser;
 /**
  * Created by mehulkothari on 3/25/2017.
  */
+
+//class to select whether student or sponsor
 public class SponsorStudent extends AppCompatActivity {
     Button student;
     Button sponsor;
