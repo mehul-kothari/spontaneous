@@ -30,6 +30,8 @@ import CreateEventPack.CreateEventObject;
 /**
  * Created by mehulkothari on 3/15/2017.
  */
+
+// for students to see a list of sponsors.
 public class SponsorsList extends Fragment {
 
     ArrayList<Users> sponsors;
