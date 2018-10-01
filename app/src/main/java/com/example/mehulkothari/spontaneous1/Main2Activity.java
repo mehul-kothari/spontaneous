@@ -89,6 +89,7 @@ public class Main2Activity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         SharedPreferences shared = this.getSharedPreferences(SponsorStudent.PREFS_NAME, Context.MODE_PRIVATE);
         String channel = shared.getString("which_user", null);
+        //checking if user is sponsor or student accordingly set navigation option.
         System.out.println(channel);
         if(channel.equals("student"))
         {
@@ -99,7 +100,9 @@ public class Main2Activity extends AppCompatActivity
         }
 
         navigationView.setNavigationItemSelectedListener(this);
+        //inserting the image
         insertImage();
+        //starting the service
         startService(new Intent(getBaseContext(),MyServices.class));
         /*handler=new Handler();
         Runnable runnable=new Runnable() {
