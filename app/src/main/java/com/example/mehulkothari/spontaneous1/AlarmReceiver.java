@@ -9,6 +9,8 @@ import android.content.Intent;
 import android.widget.Toast;
 
 public class AlarmReceiver extends BroadcastReceiver {
+    
+    //service- if the event expires remove the event or do something
 
     @Override
     public void onReceive(Context arg0, Intent arg1) {
